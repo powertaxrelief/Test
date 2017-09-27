@@ -12,3 +12,5 @@ From the command line (Push):
       //'first commit' not necessary, but will help identify file versions down the road
     git remote add origin https://github.com/powertaxrelief/'RepositoryNameOnGitHub'.git
     git push origin master
+
+From the command line (Pull):
