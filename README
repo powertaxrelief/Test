@@ -1,2 +1,14 @@
-This is the readme file
-This is the second line
+//This is the readme file in the Test directory
+//This file will contain the instructions for pulling and pushing code to Github
+  //In this case, how to pull/push README file.  Will work for any others as well.
+
+From the command line (Push):
+  Go to directory you'd like to pull/push with Github
+  Type:
+    git init
+    git add README
+    git commit -m 'first commit'
+      //-m message flag
+      //'first commit' not necessary, but will help identify file versions down the road
+    git remote add origin https://github.com/powertaxrelief/'RepositoryNameOnGitHub'.git
+    git push origin master
