@@ -14,3 +14,6 @@ From the command line (Push):
     git push origin master
 
 From the command line (Pull):
+  Go to directory you pushed earlier
+  Type:
+    git pull origin master
