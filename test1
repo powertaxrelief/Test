@@ -1,0 +1,7 @@
+#!/bin/bash
+
+echo "How many dollars do you have?"
+read x
+euro=$( echo " 0.85 * $x "| bc -l)
+echo "You have $euro euros!"
+
